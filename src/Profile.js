@@ -1,4 +1,5 @@
 import React from 'react';
+import WithRouterSample from './WithRouterSample';
 
 const profileData = {
     pDin: {
@@ -23,6 +24,7 @@ function Profile({ match }) {
         <p>
             {profile.description}
         </p>
+        <WithRouterSample /> 
     </div>
   );
 }
